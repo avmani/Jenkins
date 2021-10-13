@@ -14,7 +14,7 @@ pipeline {
         }
         stage("Deploying") {
             steps {
-                echo "Deploying the package"
+                echo "Deploying the package into repo"
             }
         }
 
