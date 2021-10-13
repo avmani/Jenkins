@@ -4,7 +4,12 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                echo "Hello world"
+                echo "Building the package"
+            }
+        }
+        stage("Testing") {
+            steps {
+                echo "Testing the static code analysis"
             }
         }
 
