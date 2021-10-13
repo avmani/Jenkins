@@ -12,6 +12,11 @@ pipeline {
                 echo "Testing the static code analysis"
             }
         }
+        stage("Deploying") {
+            steps {
+                echo "Deploying the package"
+            }
+        }
 
     }
 }
